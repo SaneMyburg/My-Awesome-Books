@@ -2,6 +2,7 @@ import Book from './modules/books.js';
 import Store from './modules/store.js';
 import UI from './modules/displaybooks.js';
 import Switch from './modules/singleapp.js';
+import { DateTime } from './modules/luxon.js';
 
 // Display Books
 document.addEventListener('DOMContentLoaded', UI.displayBooks);
@@ -30,3 +31,12 @@ document.querySelectorAll('.switch-link').forEach((link) => {
     Switch.newPage(link.textContent);
   });
 });
+
+const time = document.querySelector('.date');
+const date = new Date();
+time.textContent = `${date.toDateString()}`;
+
+setInterval(() => {
+  const date = DateTime.now().toLocaleString(DateTime.DATETIME_FULL_WITH_SECONDS);
+  time.textContent = `${date}`;
+}, 1000);
