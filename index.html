@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awesome Books</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+
+<body>
+  <section class="book-list">
+    <div class="books-nav">
+      <div class="logo">
+        <i class="uil uil-book-open"></i>
+        <h1>Awesome Books</h1>
+      </div>
+      <div class="nav-list">
+        <ul class="nav-ul">
+          <li id="list"><a class="switch-link" href="#">List</a></li>
+          <li id="add-link"><a class="switch-link" href="#">Add new</a></li>
+          <li id="contacts"><a class="switch-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="date">
+    </div>
+  </section>
+  <section class="books-library">
+    <h2>All Awesome Books</h2>
+    <div class="my-books"></div>
+  </section>
+  <section class="new-books">
+    <div class="newbooks-h2">
+      <h2>Add a new Book</h2>
+    </div>
+    <form id="new-book">
+      <div class="add-book">
+        <input type="text" name="Title" id="title" placeholder="Title" required><br>
+        <input type="text" name="Author" id="author" placeholder="Author" required><br>
+        <button id="add-new">Add</button>
+      </div>
+    </form>
+  </section>
+  <section class="contacts">
+    <div class="contact-hide">
+      <h2>Contact Information</h2>
+      <p>Do you have any questions or you just want to say "Hello"?<br>You can reach out to us!</p>
+      <ul>
+        <li>Our e-mail mail@sanem.com</li>
+        <li>Our phone number: 0317758675</li>
+        <li>Our address: 12 Stevens drive, Durban, South Africa</li>
+      </ul>
+    </div>
+  </section>
+  <footer>
+    <span>&copy</span>
+    <p>2022 Sane Myburg</p>
+  </footer>
+  <script type="module" src="./index.js"></script>
+</body>
+
+</html>
