@@ -1,5 +1,5 @@
 export default class Switch {
-  static newPage(page) {
+  static newPage = (page) => {
     const booksLibrary = document.querySelector('.books-library');
     const newBooks = document.querySelector('.new-books');
     const contactInfo = document.querySelector('.contacts');
