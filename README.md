@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>My Awesome Books App</b></h3>
 </div>
 
 
@@ -20,6 +20,7 @@
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -56,17 +57,28 @@
 
 > Get a link of this repository and clone it to your local machine.
 
-To get a local copy up and running, follow these steps.
+To get a local copy up and running, follow these steps:
+- Get a copy of the project
+- Come into the project directory
+- Open the project using code editor of your choice
+- Open your prefered browser
 
 ### Prerequisites
 
 In order to run this project you need:
-
-- A simple web browser(preferrably chrome or firefox)
+- You need a GitHub account.
+- You need to have a Git client installed on your computer.
+- You need to have a copy of the HTML CSS website codebase on your computer.
+- You need a code Editor of your choice.
 
 ### Setup
 
 Clone this repository to your desired folder:
+
+```sh
+  cd my-folder
+  git clone https://github.com/SaneMyburg/My-Awesome-Books.git
+```
 
 ### Install
 
@@ -74,11 +86,12 @@ Install this project with:
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, simply run the HTML document to preferrably Google Chrome.
 
 ### Run tests
 
-To run tests, run the following command:
+To run tests, you can use Chrome Developer tools, simply run the HTML document in Google Chrome and right-click the HTML element you want to inspect. Click on "Inspect" and you will have the tools to run, analyze, and even debug the code.
+
 
 ### Deployment
 
@@ -100,6 +113,10 @@ Github Pages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Advanced styles**
+
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -110,17 +127,14 @@ Feel free to check the [issues page](https://github.com/SaneMyburg/My-Awesome-Bo
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> You can show your support by starring my repo.
+> Give a ⭐️ if you like this project!
 
-If you like this project give it a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank Leslie
+I would like to thank [Microverse](www.microverse.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
